@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+seaborn
+statsmodels
+scikit-learn
+xgboost           # For advanced ML forecasting (optional, but recommended)
+prophet           # For advanced time series forecasting (optional, install as 'prophet' or 'fbprophet' depending on Python version)
+streamlit         # For interactive dashboards (optional)
