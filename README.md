@@ -1,6 +1,6 @@
-Here's an improved and updated `README.md` for your project, with clear instructions, module descriptions, and usage details:
 
-```markdown
+
+
 # Supply Chain Inventory Optimization Project
 
 ## Problem Summary
