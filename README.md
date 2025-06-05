@@ -1,4 +1,4 @@
-Here’s an improved and updated `README.md` for your project, with clear instructions, module descriptions, and usage details:
+Here's an improved and updated `README.md` for your project, with clear instructions, module descriptions, and usage details:
 
 ```markdown
 # Supply Chain Inventory Optimization Project
@@ -52,6 +52,52 @@ supply_chain_inventory_optimization/
   - Product clusters based on demand patterns
   - Mean vs. Standard Deviation of demand
   - Color-coded clusters for easy interpretation
+
+## Plots & Results
+
+### 1. Product Clusters by Demand Mean/Std
+This scatter plot shows the clustering of products based on their mean demand and standard deviation using a clustering algorithm (e.g., K-Means).
+
+- **Cluster 0:** Products with low mean and low variability (stable demand)
+- **Cluster 1:** Products with high mean and high variability (likely high-volume but volatile items)
+- **Cluster 2:** Intermediate behavior
+
+This clustering helps identify appropriate inventory strategies based on product demand patterns.
+
+### 2. Total Cost of Inventory (TCI) by Scenario
+This bar chart compares the Total Cost of Inventory across two different demand scenarios:
+
+- **Base Scenario**
+- **Demand Surge Scenario**
+
+Despite the increase in demand, the total cost remains nearly unchanged, indicating that the inventory policy is robust and cost-effective under variable conditions.
+
+### 3. Demand Forecasting for Item_1 at Store_1
+This line plot demonstrates a demand forecast using the SARIMAX model:
+
+- **Blue:** Training data
+- **Orange:** Actual test values
+- **Green:** Forecasted demand with confidence intervals
+
+The forecast closely follows the actual trend, demonstrating strong predictive accuracy and capturing both seasonality and fluctuations.
+
+### 4. Inventory Simulation and Reorder Alerts
+This simulation illustrates projected inventory levels over time:
+
+- **Blue line:** Projected inventory depletion
+- **Red dashed line:** Reorder point (ROP)
+- **Purple vertical lines:** Reorder events triggered
+
+The system successfully triggers reorders just before hitting the ROP, validating the inventory replenishment logic.
+
+### 5. Forecast Model Comparison
+A bar chart comparing the accuracy of different forecasting models using MAE (Mean Absolute Error) and RMSE (Root Mean Squared Error):
+
+- **SARIMAX** performs best with the lowest error rates
+- **Prophet** and **Holt-Winters** also perform well
+- **Naive** and **Moving Average** have the highest error, highlighting their limitations for complex demand patterns
+
+This evaluation supports the choice of advanced models for reliable demand forecasting.
 
 ## Assumptions for Data Generation
 - 5 unique products (`item_id`) across 2 stores (`store_id`) for better performance
