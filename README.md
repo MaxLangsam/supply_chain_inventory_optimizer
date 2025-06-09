@@ -196,6 +196,9 @@ This evaluation supports the choice of advanced models for reliable demand forec
 - Confidence interval calculation
 - Error metric computation
 
+![Forecast Image](forecast.png)
+
+
 ### Inventory Optimization
 - Dynamic ROP calculation
 - Service level monitoring
