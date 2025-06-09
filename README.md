@@ -196,7 +196,7 @@ This evaluation supports the choice of advanced models for reliable demand forec
 - Confidence interval calculation
 - Error metric computation
 
-![Forecast Image](forecast.png)
+
 
 
 ### Inventory Optimization
@@ -210,6 +210,21 @@ This evaluation supports the choice of advanced models for reliable demand forec
 - Proper figure management
 - Consistent styling
 - Error handling
+
+ ## Graphical Representation
+ ![Inventory Graph](clusters.png)
+ 
+ ![Forecast Graph](forecast.png)
+
+ ![Inventory Graph](inventory.png)
+
+ ![Inventory Graph](costs.png)
+
+ ![Inventory Graph](model_comparison.png)
+
+
+ 
+
 
 ## Future Enhancements
 
